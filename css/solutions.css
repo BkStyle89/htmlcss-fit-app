@@ -8,7 +8,8 @@ p{
 }
 
 .stats-grid:hover{
-    box-shadow:  0px 5px 5px black;
+   box-shadow:  5px 5px 5px black;  
+    transform: translateY(-5px);
 }
 
 .stats-grid:last-child .stat-number, .stats-grid:last-child .stat-label{
@@ -32,15 +33,47 @@ p{
 }
 
 div p{
-    font-size: 15px;
+    font-size: 17px;
+    quotes: "“" "”";
+    
+}
+
+div p::before{
+    content: open-quote;
+    font-size: 30px;
+    color: rgba(149, 161, 236)
+;
+}
+
+div p::after{
+    content: close-quote;
+    font-size: 30px;
+    color: rgba(158, 134, 196)
+}
+ 
+a:hover{
+    background-color: rgba(52, 73, 94);
+    transform: scale(0.5.0.5);
+    color: rgba(84, 121, 228);
+}
+
+button:hover{
+   transform: translateY(-2px);
+   box-shadow: 6px 6px 6px blue;
 
 }
 
 
+.goal-input-group:hover{
+      border: 1px solid rgb(8, 30, 226); 
+    box-shadow: 6px 6px 6px blue;
+}
 
-a:hover{
+#home:hover{
     background-color: rgba(52, 73, 94);
     transform: scale(0,5.0,5);
     color: rgba(84, 121, 228);
 }
+
+
 

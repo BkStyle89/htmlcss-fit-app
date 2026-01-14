@@ -237,9 +237,6 @@ body {
 	border-right: 1px solid #34495e;
 }
 
-.nav-item:last-child {
-	border-right: none;
-}
 
 .nav-icon {
 	display: block;

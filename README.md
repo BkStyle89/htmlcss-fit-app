@@ -26,21 +26,21 @@ Aggiungere l'emoji "⚡" all'inizio del nome degli esercizi in posizione pari (2
 7-8. 🎯 Focus sui campi input
 
 Quando un campo input o select riceve il focus, deve avere bordo blu e ombra blu
-Aggiungere una transizione fluida per l'effetto
+Aggiungere una transizione fluida per l'effettook OK
 
 9. 🔘 Miglioramenti al button
 
 Il button "Salva Obiettivi" deve sollevarsi di 2px quando ci passi sopra il mouse
-Cambiare anche il colore di sfondo e Aggiungere un'ombra blu
+Cambiare anche il colore di sfondo e Aggiungere un'ombra bluOK
 
 10. 📊 Percentuale nella barra di progresso
 
-Mostra "65%" in bianco dentro la barra di progresso, allineato a destra
+Mostra "65%" in bianco dentro la barra di progresso, allineato a destra?
 
 11-12. 🧭 Migliorie alla navigazione
 
 Aggiungere effetto hover sui link di navigazione (sfondo più scuro e testo blu)
-Il primo link della navigazione deve apparire sempre "attivo" (come se fosse la pagina corrente)
+Il primo link della navigazione deve apparire sempre "attivo" (come se fosse la pagina corrente) ?
 
 13. 💭 Virgolette alla citazione OK
 
