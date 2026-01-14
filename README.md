@@ -26,7 +26,7 @@ Aggiungere l'emoji "⚡" all'inizio del nome degli esercizi in posizione pari (2
 7-8. 🎯 Focus sui campi input
 
 Quando un campo input o select riceve il focus, deve avere bordo blu e ombra blu
-Aggiungere una transizione fluida per l'effettook OK
+Aggiungere una transizione fluida per l'effetto OK
 
 9. 🔘 Miglioramenti al button
 
