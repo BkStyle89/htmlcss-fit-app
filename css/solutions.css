@@ -1,4 +1,13 @@
 
+.stats-grid:nth-child(1) ::before{
+
+    content: "🔥";
+    position: absolute;
+    top: 10%;
+    translate: 50% 50%;
+    font-size: 70%;
+    
+}
 
 .stats-grid:last-child{
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);   
@@ -22,11 +31,20 @@
 .exercise-item:last-child{
     background-color: rgba(240, 255, 244);
     border-left: solid 5px rgba(46, 204, 113);
+    
+}
+.exercise-item:last-child ::before{
+content: "⚡";
 }
 
 .exercise-item:first-child{
     background-color: rgba(240, 255, 244);
     border-left: solid 4px rgba(46, 204, 113);
+    content: "⚡";
+}
+
+.exercise-item:first-child ::before{
+content: "⚡";
 }
 
 div p{
