@@ -1,11 +1,10 @@
 /* top part */
-.stats-grid:nth-child(1) ::before{
+.stats-grid:nth-child(1)::before{
 
     content: "🔥";
-    position: absolute;
-    top: 10%;
+    top: 10%; 
     translate: 50% 50%;
-    font-size: 70%;
+    font-size: 170%;
     
 }
 
@@ -33,17 +32,16 @@
     border-left: solid 5px rgba(46, 204, 113);
     
 }
-.exercise-item:last-child ::before{
+.exercise-item:last-child::before{
 content: "⚡";
 }
 
 .exercise-item:first-child{
     background-color: rgba(240, 255, 244);
     border-left: solid 4px rgba(46, 204, 113);
-    content: "⚡";
 }
 
-.exercise-item:first-child ::before{
+.exercise-item:first-child::before{
 content: "⚡";
 }
 /* quotes */
@@ -70,6 +68,10 @@ a:hover{
     background-color: rgba(52, 73, 94);
     transform: scale(5 5);
     color: rgba(84, 121, 228);
+}
+
+.nav-footer .nav-item[href="#home"]{
+    background-color: rgb(4, 4, 116);
 }
 
 button:hover{
